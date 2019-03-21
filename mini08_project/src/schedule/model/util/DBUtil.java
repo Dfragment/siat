@@ -1,3 +1,4 @@
+//
 package schedule.model.util;
 
 import java.io.FileInputStream;
@@ -25,7 +26,7 @@ public class DBUtil {
 																  p.getProperty("jdbc.pw"));
 	}
 
-	// DML¿ë
+	// DMLÂ¿Ã«
 	public static void close(Connection con, Statement stmt) {
 		try {
 			if (stmt != null) {
@@ -41,7 +42,7 @@ public class DBUtil {
 		}
 	}
 
-	// SELECT¿ë
+	// SELECTÂ¿Ã«
 	public static void close(Connection con, Statement stmt, ResultSet rset) {
 		try {
 			if (rset != null) {
